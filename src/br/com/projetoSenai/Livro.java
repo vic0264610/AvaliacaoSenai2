@@ -34,7 +34,8 @@ public void devolver() {
 
 @Override
 public String toString() {
-    return "Livro: " + titulo;
+    return titulo + " - " + autor + " - " + (disponivel ? "Disponível" : "Indisponível");
+
 }
 
 }

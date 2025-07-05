@@ -28,7 +28,7 @@ public class Main {
                     System.out.print("Digite o autor do livro: ");
                     String autorCadastro = scanner.nextLine();
 
-                    livros.add(new Livro(tituloCadastro, autorCadastro));
+                    livros.add(new Livro(tituloCadastro, autorCadastro, false));
                     System.out.println("Livro cadastrado com sucesso!\n");
                     break;
 
